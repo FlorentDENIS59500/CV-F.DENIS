@@ -1,0 +1,302 @@
+body {
+    background-color: white;
+	font-family: Trebuchet, sans-serif;
+	width: 100%;
+}
+
+.ma-photo6 {
+	position: absolute;
+	width: 150px;
+	max-width: 100%;
+	height: auto;
+	top: 20px;
+	float: left;
+	margin-left: 10%;
+	border-radius: 20px;
+}
+
+.ma-photo6:hover {
+	border-radius: 45%;
+	cursor: pointer;
+}
+
+.linkedin {
+	background-color: rgba(255, 255, 255, 0.65);
+	position: relative;
+	width: 75px;
+	height: auto;
+	top: 100px;
+	left: 60%;
+	border: 2px solid rgb(88, 88, 93);
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.linkedin:hover {
+	border-radius: 50%;
+	animation: pulsation_bouton 0.8s ease-out;
+	animation-iteration-count: infinite;
+}
+
+h1 {
+	display: inline-block;
+	width: auto;
+	text-align: center;
+	color: rgb(117, 7, 36);
+	border: 2px solid #878f94;
+	border-radius: 10px;
+	font-size: 35px;
+	padding: 5px 5px;
+	outline: 3px solid #454548;
+	outline-offset: 5px;
+	position: relative;
+	left: 45%;
+	top: 50px;
+}
+button {
+	font-size: 16px;
+	position: relative;
+    top: 2px;
+	text-align: left;
+	text-decoration: none;
+	border-radius: 10px;
+	background-color: rgb(117, 7, 36);
+	padding: 20px 30px;
+	margin-top: 35px;
+	border: none;
+	cursor: pointer;
+	box-shadow: 9px 9px rgb(88, 81, 91);
+	outline: none;
+}
+button>a:hover {
+	color: rgb(0, 0, 0);
+	transition: color 1s;
+}
+button:hover {
+	transform: translateY(9px);
+	box-shadow: 8px 8px rgba(88, 81, 91);
+	border-radius: 25%;
+}
+a {
+	color: whitesmoke;
+	text-decoration: none;
+	font-family: Trebuchet, sans-serif;
+}
+button[class*="edition"]:hover,button[class*="contact"]:hover {
+	background-color: rgb(117, 7, 36);
+	transform: translateY(9px);
+	transition: color 1s;
+	box-shadow: 6px 6px rgb(88, 81, 91);
+	outline: none;
+}
+button {
+	position: relative;
+	left: 50px;
+}
+button[class*="formation"] {
+	width: 210px;
+}
+button[class*="experiences"] {
+	width: 180px;
+}
+button[class*="competences"] {
+	width: 150px;
+}
+button[class*="centres"] {
+	width: 270px;
+}
+button[class*="diver"] {
+	width: 240px;
+}
+button[class*="edition"],button[class*="contact"] {
+    position: absolute;
+    top: 50px;
+	padding: 10px 20px;
+	background-color: rgb(67, 64, 69);
+	font-size: 26px;
+	box-shadow: 9px 9px rgb(172, 166, 172);
+    top: 340px;
+	left: 70%;
+    text-align: center;
+}
+button[class*="contact"] {
+	top: 520px;
+}
+#Competences {
+    display: inline-block;
+	color: rgb(117, 7, 36);
+	border: 2px solid #878f94;
+	border-radius: 10px;
+	font-size: 150%;
+	padding: 10px 20px;
+	outline: 3px solid #454548;
+	outline-offset: 5px;
+	position: absolute;
+	top: 760px;
+    left: 70px;
+}
+.comp,.exp,.form,.divers {
+	margin: auto;
+	width: 450px;
+	text-align: center;
+	color: rgb(67, 67, 73);
+	font-size: 150%;
+	position: relative;
+	border: 2px solid black;
+	border-radius: 20px;
+	padding: 15px;
+	top: 120px;
+}
+.btn1,.btn2,.btn3,.btn4,.btn5 {
+	visibility: hidden;
+}
+.btn1-1,.btn2-1,.btn3-1,.btn4-1 {
+    visibility: hidden;
+}
+#Experiences {
+	display: inline-block;
+	text-align: center;
+	color: rgb(117, 7, 36);
+	border: 2px solid #878f94;
+	border-radius: 10px;
+	font-size: 150%;
+	padding: 10px 20px;
+	outline: 3px solid #454548;
+	outline-offset: 5px;
+	position: absolute;
+	top: 1270px;
+    left: 70px;
+}
+.exp {
+	width: 450px;
+	font-size: 150%;
+	top: 250px;
+}
+#Formation {
+	display: inline-block;
+	text-align: center;
+	color: rgb(117, 7, 36);
+	border: 2px solid #878f94;
+	border-radius: 10px;
+	font-size: 150%;
+	padding: 10px 20px;
+	outline: 3px solid #454548;
+	outline-offset: 5px;
+	position: absolute;
+    top: 1950px;
+    left: 70px;
+}
+.form {
+    width: 450px;
+	font-size: 25px;
+	top: 380px;
+}
+#Divers {
+	display: inline-block;
+	text-align: center;
+	color: rgb(117, 7, 36);
+	border: 2px solid #878f94;
+	border-radius: 10px;
+	font-size: 150%;
+	padding: 10px 20px;
+	outline: 3px solid #454548;
+	outline-offset: 5px;
+	position: absolute;
+    left: 70px;
+    top: 2560px;
+}
+.divers {
+    width: 450px;
+	font-size: 25px;
+	top: 550px;
+}
+
+.excel,.word,.point,.html5,.css,.js {
+	border-radius: 10xp;
+	padding: 30px;
+    width: 15%;
+}
+
+.logo {
+	text-align: center;
+	top: 570px;
+	position: relative;
+	z-index: -3;
+}
+
+.excel:hover,.word:hover,.point:hover,.html5:hover,.css:hover,.js:hover {
+	border-radius: 30%;
+	cursor: pointer;
+}
+#Interet {
+	display: inline-block;
+	text-align: center;
+	color: rgb(117, 7, 36);
+	border: 2px solid #878f94;
+	border-radius: 10px;
+	font-size: 150%;
+	padding: 10px 20px;
+	outline: 3px solid #454548;
+	outline-offset: 5px;
+	position: absolute;
+    top: 3350px;
+    left: 70px;
+
+}
+
+h3 {
+	display: inline-block;
+	color: rgb(117, 7, 36);
+}
+
+.peche {
+	position: absolute;
+    width: 75%;
+	border-radius: 20px;
+	top: 3480px;
+	left: 13%;
+	z-index: -3;
+}
+
+.peche:hover {
+	border-radius: 25%;
+	cursor: pointer;
+}
+
+.bricolage {
+	position: absolute;
+    width: 75%;
+	border-radius: 20px;
+	top: 3920px;
+	left: 13%;
+	z-index: -3;
+}
+
+.bricolage:hover {
+	border-radius: 25%;
+	cursor: pointer;
+}
+
+.bateau {
+    visibility: hidden;
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 2px solid rgb(78, 78, 84);
+	border-radius: 15px;
+	padding: 10px 20px;
+	top: 3750px;
+	font-size: 230%;
+	left: 26%;
+}
+
+.brico {
+    visibility: hidden;
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 2px solid rgb(78, 78, 84);
+	border-radius: 15px;
+	padding: 10px 20px;
+    font-size: 230%;
+    top: 4210px;
+	left: 35%;
+}

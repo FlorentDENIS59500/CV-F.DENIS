@@ -1,0 +1,145 @@
+body {
+  background: url(fondmoderne7.jpg);
+  font-family: Trebuchet, sans-serif;
+  width: 100%;
+
+}
+
+.contactez-moi {
+  color: rgb(117, 7, 36);
+  margin: auto;
+  margin-top: 3%;
+  width: 75%;
+  border: 2px solid;
+  border-radius: 8px;
+  padding: 0 50px 0 50px;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.contactez-moi>h1 {
+  position: relative;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  margin-top: 2%;
+  font-weight: 500;
+  font-size: 40px;
+  text-decoration: underline;
+  text-decoration-thickness: 0.05em;
+}
+
+.contactez-moi>p {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+form div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 83px;
+  margin-top: 30px;
+}
+
+form div>label {
+  font-size: 20px;
+  margin-bottom: 7px;
+
+}
+
+form div>input,form div>textarea {
+  background: rgb(117, 7, 36);
+  color: azure;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+form div>input {
+  height: 50px;
+  padding-left: 10px;
+  width: 70%;
+}
+
+form div>textarea {
+  height: 195px;
+  padding: 15px 0px 0px 10px;
+}
+
+form div:last-child {
+  align-items: center;
+  margin-top: 20px;
+}
+
+button {
+  color: whitesmoke;
+  width: 70%;
+  max-width: 500px;
+  height: auto;
+  font-weight: 550;
+  font-size: 28px;
+  transition: color 1.7s;
+  background-size: 200%;
+  background-image: linear-gradient(to right, rgb(117, 7, 36), rgb(199, 163, 173), rgb(117, 7, 36));
+  border-radius: 10px;
+  border-style: outset;
+  border-width: 5px;  
+  cursor: pointer;
+}
+
+.message:hover {
+  color: rgb(38, 38, 38);
+  background-position: right;
+}
+
+.champs {
+  color: red;
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+h2 {
+  position: relative;
+  margin: auto;
+  text-decoration: underline;
+  text-decoration-thickness: 0.05em;
+  margin-bottom: 30px;
+
+}
+h2{
+  text-align: center;
+}
+
+.coordonnées {
+  text-align: center;
+  color: rgb(0, 0, 244);
+  position: relative;
+  font-size: 130%;
+  margin: auto;
+  margin-top: 5%;
+  height: auto;
+  width: 30%;
+  border: 2px solid;
+  border-radius: 8px;
+  padding: 10px 40px 20px 55px;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.retour {
+  position: relative;
+  margin: auto;
+  width: 25%;
+  height: auto;
+  top: 60px;
+}
+
+.retour:hover {
+  color: rgb(38, 38, 38);
+  background-position: right;
+}
